@@ -20,20 +20,20 @@ import hathorLib from '@hathor/wallet-lib';
  * . remove register/unregister token options;
  * . remove create new token option;
  */
-export const _IS_MULTI_TOKEN = true;
+export const _IS_MULTI_TOKEN = false;
 
 /**
  * Default token.
- * @constant
+ * @constant _DEFAULT_TOKEN
  * @type {{
- *   uid: string;
- *   name: string;
- *   symbol: string;
+ *   uid: 
+ *   name: 
+ *   symbol:
  * }}
  * @default
  * {
- *   name: 'Hathor',
- *   symbol: 'HTR',
+ *   name: 'Nicolas Token',
+ *   symbol: 'NICO',
  *   uid: '00'
  * }
  */
